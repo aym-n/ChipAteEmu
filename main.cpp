@@ -59,7 +59,7 @@ int main(int argc, char **argv)
     chip8.emulateCycle();
     chip8.draw();
 
-    SDL_Delay(2);  // Adjust for proper timing
+    SDL_Delay(2);
   }
 
   return 0;
